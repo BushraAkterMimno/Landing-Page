@@ -28,6 +28,19 @@
     padding: 12px 26px;
 }
 
+button:hover {
+    box-shadow: 0px 6px 10px 5px #a0a0a3;
+    transition: 0.6s;
+    background-color: #1f1d6e;
+}
+
+
+/* main styles */
+
+main {
+    background-color: #F5F8FF;
+}
+
 
 /* header styles */
 
@@ -68,4 +81,227 @@ nav {
 
 .banner-btn {
     margin-bottom: 50px;
+}
+
+
+/* action styles */
+
+.action-section {
+    display: flex;
+    align-items: center;
+    padding-top: 116px;
+    padding-bottom: 116px;
+    padding-left: 141px;
+    padding-right: 159px;
+}
+
+.action {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.action-heading {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.action-text {
+    font-size: 20px;
+    color: rgba(37, 36, 50, 0.5);
+}
+
+.action-img img {
+    align-items: right;
+    border-radius: 48px;
+}
+
+
+/* productive user styles */
+
+.productive {
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    margin-top: 116px;
+    margin-bottom: 137px;
+    margin-left: 141px;
+    margin-right: 159px;
+}
+
+.productive-heading {
+    font-size: 38px;
+    font-weight: bold;
+    padding: 50px 142px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.productive-user {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.user-percentage {
+    font-size: 80px;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.user {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -70px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+/* user's feedback styles */
+
+.user-feedback-section {
+    padding-bottom: 100px;
+}
+
+.user-feedback-heading {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user-feedback-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 150px;
+}
+
+.user-feedback {
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    margin: 20px;
+    padding: 24px;
+}
+
+.user-info {
+    display: flex;
+    text-align: center;
+}
+
+.user-img img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-details {
+    margin-top: -15px;
+}
+
+.user-details h5 {
+    font-size: 12px;
+    color: rgba(117, 117, 117, 1);
+
+}
+
+.user-details h6 {
+    color: rgba(179, 179, 179, 1);
+    margin-top: -15px;
+    margin-left: -60px;
+}
+
+
+/* focus styles */
+
+.focus {
+    text-align: center;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+    padding: 70px 150px;
+    margin: 100px 150px;
+}
+
+.focus-heading {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.focus-text {
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: -20px;
+}
+
+.focus-img {
+    border-radius: 48px;
+    margin-top: 20px;
+}
+
+
+/* let’s get in touch */
+
+.touch-section {
+    display: flex;
+    padding: 130px 230px;
+    gap: 100px;
+}
+
+.touch-title {
+    font-size: 90px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.touch-column {
+    width: 50%;
+}
+
+.touch-section h5 {
+    font-size: 13px;
+    font-weight: medium;
+}
+
+.touch-section input[type="text"], .touch-section input[type="email"]{
+    height: 64px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: #757575;
+    border: 1px solid rgba(214, 221, 237, 1);
+    display: block;
+    padding: 0px 20px;
+    margin-bottom: 24px;
+}
+
+.touch-section textarea {
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: #757575;
+    border: 1px solid rgba(214, 221, 237, 1);
+    display: block;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+
+.touch-section input[type="submit"] {
+    width: 110%;
+}
+
+
+/* footer styles */
+
+footer {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer h1 {
+    font-size: 100px;
+}
+
+footer p {
+    color: rgba(137, 135, 161, 1);
+    margin-top: -50px;
+    padding-bottom: 20px;
+}
+
+.footer-links a {
+    color: rgba(137, 135, 161, 1);
+    text-decoration: none;
+    padding-left: 40px;
 }
